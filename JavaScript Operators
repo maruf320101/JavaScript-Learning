@@ -1,0 +1,50 @@
+👉 Arithmetic Operators
+These are used for standard mathematical calculations.
++ (Addition): Adds two numbers.
+- (Subtraction): Subtracts one number from another.
+* (Multiplication): Multiplies two numbers.
+/ (Division): Divides one number by another.
+% (Modulus): Returns the remainder of a division.
+++ (Increment): Increases a number by one.
+-- (Decrement): Decreases a number by one.
+................................................................................................................................................
+👉 Assignment Operators =
+These operators are used to assign values to variables.
+= (Assignment): Assigns the value on the right to the variable on the left.
++= (Add and assign): Adds the right value to the left variable and assigns the result. (e.g., a += b is the same as a = a + b).
+-= (Subtract and assign): a -= b is the same as a = a - b.
+*= (Multiply and assign): a *= b is the same as a = a * b.
+/= (Divide and assign): a /= b is the same as a = a / b.
+................................................................................................................................................
+👉 Comparison Operators
+These are used to compare two values and return a boolean result (true or false).
+== (Equal to): Checks if two values are equal, but converts types if they are different.
+=== (Strict equal to): Checks if two values are equal and if they are of the same type. (This is generally the recommended method).
+!= (Not equal to): The opposite of ==.
+!== (Strict not equal to): The opposite of ===.
+> (Greater than)
+< (Less than)
+>= (Greater than or equal to)
+<= (Less than or equal to)
+................................................................................................................................................
+👉 Logical Operators
+These are used to combine multiple boolean conditions.
+&& (AND): Returns true only if both conditions are true.
+|| (OR): Returns true if at least one of the conditions is true.
+! (NOT): Inverts a boolean value (true becomes false, false becomes true).
+................................................................................................................................................
+👉 String Operator 
+The + operator can also be used to join (concatenate) strings. If one of the operands is a string, the other will also be converted to a string.
+................................................................................................................................................
+👉 Ternary Operator
+This is a shortcut for a simple if-else statement.
+Syntax: condition ? valueIfTrue : valueIfFalse
+................................................................................................................................................
+
+
+
+
+
+
+
+
