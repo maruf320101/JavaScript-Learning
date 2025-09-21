@@ -1,0 +1,77 @@
+// String Concatenation: Duti string "Hello" and "World" ke eksathe jora diye "Hello World" output dekhano.
+//let text_1 = "Hello";
+//let text_2 = "world";
+//let final_text = text_1.concat(text_2);
+//let final_text = text_1 +" "+ text_2;
+//console.log(final_text);
+//.........................................................................................................
+
+//Number Comparison: Duti number ar moddhe konti boro sheta ber kora.
+// let num_1 = 10;
+// let num_2 = 20;
+
+// if(num_1>num_2){
+//     console.log("Big");
+// }
+
+// else if (num_1<num_2){
+//     console.log("Small");
+// }
+
+// else {
+//   console.log("Both numbers are equal");
+// }
+//..........................................................................................................
+//For Loop: 1 theke 10 porjonto sonkhagulo print kora.
+// for (let i=1; i<=10; i++){
+//     console.log(i);
+// }
+//..........................................................................................................
+
+//FizzBuzz: 1 theke 100 porjonto sonkhagulo print kora. Kintu jodi kono sonkha 3 dara vag jay tahole shei sonkhar poriborte "Fizz" print kora, jodi 5 dara vag jay tahole "Buzz" print kora, ar jodi 3 and 5 ubhoy dara vag jay tahole "FizzBuzz" print kora.
+// for (let i=1; i<=100; i++){
+//     if (i%3 === 0 && i%5 ===0){
+//         console.log("FizzBuzz");
+//     }
+//     else if(i%3===0){
+//         console.log("Fizz");
+//     }
+//     else if(i%5===0){
+//         console.log("Buzz");
+//     }
+//     else {
+//         console.log(i)
+//     }
+// }
+//..........................................................................................................
+//String Reverse: Ekti string ke reverse kora. Jemon "hello" ke "olleh" banano.
+
+// let str = "hello";
+// let reversedStr = "";//null
+// for (let i = str.length - 1; i >= 0; i--) {
+//   reversedStr += str[i];
+// }
+// console.log(reversedStr);
+//..........................................................................................................
+
+// let numbers = [10, 5, 20, 8, 15];
+// let largest = numbers[0];
+
+// for (let i = 1; i < numbers.length; i++) {
+//   if (numbers[i] > largest) {
+//     largest = numbers[i];
+//   }
+// }
+// console.log("The largest number is: " + largest);
+//..........................................................................................................
+//Ekti string palindrome kina sheta check kora. Palindrome holo shei shobdo ja ulta korleo eki thake, jemon "madam".
+// function isPalindrome(str) {
+//   let reversedStr = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     reversedStr += str[i];
+//   }
+//   return str === reversedStr;
+// }
+
+// console.log(isPalindrome("madam")); // true
+// console.log(isPalindrome("hello")); // false
